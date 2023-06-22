@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { Context } from '../Context';
 
 function Main(props) {
-  const {darkmode} = props
+  const {darkmode} = useContext(Context)
   console.log('Main 에서 받는 props : ', props);
 
   return (
