@@ -6,7 +6,7 @@ function Main() {
   // console.log('Main 에서 받는 props : ', props);
 
   return (
-    <section className={darkmode ? 'darkmode' : null}>
+    <section className={darkmode ? 'bg-dark text-white' : null}>
       <h1>main</h1>
     </section>
     )

@@ -12,7 +12,7 @@ function App() {
   }
 
   return (
-    // Context로 하위 컴포넌트에게 state 값을 제공
+    //  전역 state 변수들
     <Context.Provider value={{darkmode, handleDarkmode}}>
       <Page />
     </Context.Provider>
