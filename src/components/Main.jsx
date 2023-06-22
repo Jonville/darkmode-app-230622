@@ -1,9 +1,9 @@
 import React, { useContext } from 'react'
 import { Context } from '../Context';
 
-function Main(props) {
+function Main() {
   const {darkmode} = useContext(Context)
-  console.log('Main 에서 받는 props : ', props);
+  // console.log('Main 에서 받는 props : ', props);
 
   return (
     <section className={darkmode ? 'darkmode' : null}>

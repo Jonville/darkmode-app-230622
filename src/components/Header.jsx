@@ -2,9 +2,9 @@ import React, { useContext } from 'react'
 import { Context } from '../Context';
 
 
-function Header(props) {
+function Header() {
   const {darkmode , handleDarkmode} = useContext(Context)
-  console.log('Header 에서 받는 props : ',props)
+  // console.log('Header 에서 받는 props : ',props)
 
   return (
       <header >
